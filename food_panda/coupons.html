@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodPanda - Coupons</title>
+  <link rel="stylesheet" href="food_panda_css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo-container">
+      <img src="logo_panda.png" alt="FoodPanda Logo">
+      <span class="logo-text">FoodPanda</span>
+    </div>
+
+    <nav>
+      <a href="home_page_food_panda.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="partners.html">Partners</a>
+      <a href="coupons.html">Coupons</a>
+      <a href="restaurants.html">Restaurant API</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- COUPONS SECTION -->
+  <section class="coupons">
+    <div class="hero-content">
+      <h1>Claim a Sample FoodPanda Coupon!</h1>
+      <p>Enter your email to receive a sample promo code using EmailJS API. This is a demo for our portfolio website.</p>
+
+      <form id="couponForm">
+        <input type="email" id="email" placeholder="Enter your email..." required>
+        <button type="submit">Claim Coupon</button>
+      </form>
+      <p id="status"></p>
+    </div>
+
+    <div class="hero-image">
+      <img src="delivery_riders.jpg" alt="Delivery Image">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Help</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+
+    <div class="contact">
+      <p>© 2025 FoodPanda Portfolio | Educational Purposes Only</p>
+    </div>
+  </footer>
+
+  <!-- EMAILJS SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("YOUR_EMAILJS_USER_ID"); // Replace with your EmailJS user ID
+
+    const form = document.getElementById("couponForm");
+    const statusText = document.getElementById("status");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      const email = document.getElementById("email").value;
+
+      const templateParams = {
+        user_email: email,
+        coupon_code: "FOODPANDA-DEMO"
+      };
+
+      emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+        .then(function(response) {
+          statusText.textContent = "Coupon sent! Check your inbox.";
+          statusText.style.color = "green";
+          form.reset();
+        }, function(error) {
+          statusText.textContent = "Failed to send coupon. Try again.";
+          statusText.style.color = "red";
+        });
+    });
+  </script>
+</body>
+</html>
