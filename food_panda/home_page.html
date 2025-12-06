@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodPanda Clone</title>
+  <link rel="stylesheet" href="food_panda_css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="logo_panda.png" alt="FoodPanda Logo">
+      <span class="logo-text">FoodPanda</span>
+    </div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#">Partners</a>
+      <a href="#">Restaurants</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Delivering Convenience<br>Since 2012</h1>
+      <p>Discover FoodPanda's journey, achievements, and innovations.</p>
+      <a class="hero-btn" href="#milestones" id="exploreBtn">Explore FoodPanda Portfolio</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="delivery_riders.jpg" alt="Delivery Image">
+    </div>
+  </section>
+
+  <section class="deals" id="milestones">
+    <h2>FoodPanda Milestones</h2>
+    <div class="deal-list">
+      <div class="deal-card milestone">Founded 2012
+        <div class="tooltip">FoodPanda was founded in 2012 with a mission to deliver convenience through food delivery services.</div>
+      </div>
+      <div class="deal-card milestone">400+ Cities
+        <div class="tooltip">FoodPanda rapidly expanded and now serves over 400 major cities worldwide.</div>
+      </div>
+      <div class="deal-card milestone">100k+ Restaurants
+        <div class="tooltip">Partnered with more than 100,000 restaurants to give users more food choices.</div>
+      </div>
+      <div class="deal-card milestone">Express Delivery
+        <div class="tooltip">Introduced express delivery innovations to minimize waiting time.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="categories" id="services">
+    <h2>FoodPanda Services</h2>
+    <div class="category-list">
+      <div><img src="food_delivery.png" alt="Food Delivery"><p>Food Delivery</p></div>
+      <div><img src="panda_mart.png" alt="PandaMart"><p>PandaMart</p></div>
+      <div><img src="courier.png" alt="Courier Service"><p>Courier Service</p></div>
+      <div><img src="panda_pro.png" alt="PandaPro"><p>PandaPro</p></div>
+      <div><img src="voucher.png" alt="Vouchers"><p>Vouchers</p></div>
+    </div>
+  </div>
+
+  <div class="restaurants">
+    <h2>Popular Restaurants</h2>
+    <div class="restaurant-list">
+      <div><img src="mcdo.jpg" alt="McDonald's"><p>McDonald's</p></div>
+      <div><img src="jollibee.jpg" alt="Jollibee"><p>Jollibee</p></div>
+      <div><img src="shakeys.jpg" alt="Shakey's"><p>Shakey’s</p></div>
+      <div><img src="KFC.jpg" alt="KFC"><p>KFC</p></div>
+    </div>
+  </div>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-list">
+      <div class="testimonial-card">
+        <p>"FoodPanda makes my life so much easier! Fast delivery and great food choices."</p>
+        <span>- Anna R.</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"I love using FoodPanda for groceries and meals. Super convenient!"</p>
+        <span>- Mark D.</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"Reliable, quick, and the app is easy to use. Highly recommended."</p>
+        <span>- Sophia L.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-item">
+      <h3>100K+</h3>
+      <p>Partnered Restaurants</p>
+    </div>
+    <div class="stat-item">
+      <h3>500M</h3>
+      <p>Deliveries Completed</p>
+    </div>
+    <div class="stat-item">
+      <h3>400+</h3>
+      <p>Cities Served</p>
+    </div>
+    <div class="stat-item">
+      <h3>50M+</h3>
+      <p>Active Users</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <h2>Get the FoodPanda App</h2>
+      <p>Order food, groceries, and essentials with ease.</p>
+
+      <div class="footer-store-buttons">
+        <a href="#" class="store-btn"><img src="playstore-Photoroom.png" alt="Google Play"></a>
+        <a href="#" class="store-btn"><img src="appstore-Photoroom.png" alt="App Store"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Help</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+
+      <p class="footer-credit">© <span id="currentYear"></span> FoodPanda Portfolio | Designed by Group 1</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Go to top">↑</button>
+
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    const backToTopBtn = document.getElementById("backToTop");
+    window.onscroll = function() {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    };
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    const faders = document.querySelectorAll('.milestone, .testimonial-card');
+    const appearOptions = { threshold: 0.3 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+
+    document.getElementById("exploreBtn").addEventListener("click", function(e) {
+      e.preventDefault();
+      const target = document.getElementById("milestones");
+      const headerOffset = 100;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    });
+  </script>
+
+</body>
+</html>
