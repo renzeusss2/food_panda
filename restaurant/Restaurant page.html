@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodPanda - Discover Restaurants</title>
+    <link rel="stylesheet" href="Restaurant_css.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+      <img src="logo_panda.png" alt="FoodPanda Logo">
+      <span class="logo-text">FoodPanda</span>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Partners</a>
+      <a href="#">Restaurants</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+      <h2>Delicious Food Delivered Fast</h2>
+      <p>Order from your favorite restaurants and get it delivered to your door.</p>
+  </div>
+</section>
+
+<main>
+    <section class="restaurant-list">
+        <h2>Popular Restaurants Near You</h2>
+
+        <div class="restaurant-grid" id="restaurant-grid"></div>
+
+    </section>
+</main>
+
+<div id="menu-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul id="menu-list"></ul>
+    </div>
+</div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Help</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+    <div class="contact">
+      <p>© 2025 FoodPanda Portfolio | Designed by Group 1</p>
+    </div>
+  </footer>
+
+<script src="restaurants.js"></script>
+</body>
+</html>

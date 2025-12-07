@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Jollibee",
+    "image": "jollibee.jpg",
+    "rating": 4.8,
+    "reviews": 1200,
+    "description": "Famous for Chickenjoy, Jolly Spaghetti, and Peach Mango Pie. A beloved Filipino fast-food chain known for its joyful flavors.",
+    "delivery_fee": 49,
+    "min_order": 200,
+    "buy_link": "https://www.foodpanda.ph/restaurant/z6lp/jollibee-sm-center-las-pinas",
+    "review_link": "https://www.google.com/search?q=Jollibee+reviews"
+  },
+  {
+    "name": "McDonald's",
+    "image": "mcdo.jpg",
+    "rating": 4.6,
+    "reviews": 980,
+    "description": "Serving burgers, fries, chicken meals, and desserts. Popular for its classic menu and quick service.",
+    "delivery_fee": 39,
+    "min_order": 150,
+    "buy_link": "https://www.foodpanda.ph/restaurant/s5mi/mcdonalds-times",
+    "review_link": "https://www.google.com/search?q=McDonald's+reviews"
+  },
+  {
+    "name": "KFC",
+    "image": "KFC.jpg",
+    "rating": 4.7,
+    "reviews": 800,
+    "description": "Crispy fried chicken, buckets, and signature gravy. Loved for its savory fried chicken and hearty sides.",
+    "delivery_fee": 59,
+    "min_order": 250,
+    "buy_link": "https://www.foodpanda.ph/restaurant/t3bb/kfc-starmall-las-pinas",
+    "review_link": "https://www.google.com/search?q=KFC+reviews"
+  },
+  {
+    "name": "Shakey's",
+    "image": "shakey's.jpg",
+    "rating": 4.5,
+    "reviews": 600,
+    "description": "Pizza, chicken, mojos, and family meals. Perfect for gatherings and casual dining with friends and family.",
+    "delivery_fee": 69,
+    "min_order": 300,
+    "buy_link": "https://www.foodpanda.ph/restaurant/r5rh/shakeys-pizza-las-pinas",
+    "review_link": "https://www.google.com/search?q=Shakey's+reviews"
+  },
+  {
+    "name": "Subway",
+    "image": "subway.png",
+    "rating": 4.4,
+    "reviews": 450,
+    "description": "Fresh sandwiches and healthy meal options. Offers customizable subs and salads for a lighter, nutritious meal.",
+    "delivery_fee": 45,
+    "min_order": 150,
+    "buy_link": "https://www.foodpanda.ph/restaurant/avp9/subway-vista-mall-las-pinas",
+    "review_link": "https://www.google.com/search?q=Subway+reviews"
+  },
+  {
+    "name": "Mang Inasal",
+    "image": "mang.jpg",
+    "rating": 4.7,
+    "reviews": 700,
+    "description": "Famous for unlimited rice, grilled chicken, and traditional Filipino flavors. A favorite for quick, hearty Filipino meals.",
+    "delivery_fee": 50,
+    "min_order": 180,
+    "buy_link": "https://www.foodpanda.ph/restaurant/t1if/mang-inasal-sm-las-pinas",
+    "review_link": "https://www.google.com/search?q=Mang+Inasal+reviews"
+  },
+  {
+    "name": "Greenwich Pizza",
+    "image": "green.png",
+    "rating": 4.3,
+    "reviews": 520,
+    "description": "Serving delicious pizzas, pasta, and chicken meals. Perfect for family dinners or casual snacks.",
+    "delivery_fee": 55,
+    "min_order": 200,
+    "buy_link": "https://www.foodpanda.ph/restaurant/b2er/greenwich-robinsons-las-pinas",
+    "review_link": "https://www.google.com/search?q=Greenwich+Pizza+reviews"
+  },
+  {
+    "name": "Max's Restaurant",
+    "image": "maxs.jpg",
+    "rating": 4.6,
+    "reviews": 650,
+    "description": "Known for fried chicken and classic Filipino dishes. A long-standing Filipino restaurant with home-style meals.",
+    "delivery_fee": 60,
+    "min_order": 250,
+    "buy_link": "https://www.foodpanda.ph/restaurant/q4st/maxs-restaurant-las-pinas",
+    "review_link": "https://www.google.com/search?q=Max's+Restaurant+reviews"
+  },
+  {
+    "name": "BonChon",
+    "image": "bonchon.jpg",
+    "rating": 4.5,
+    "reviews": 580,
+    "description": "Crispy Korean-style fried chicken and rice meals. Loved for its unique sauce flavors and crunchy chicken.",
+    "delivery_fee": 65,
+    "min_order": 300,
+    "buy_link": "https://www.foodpanda.ph/restaurant/q4ix/bonchon-sm-las-pinas",
+    "review_link": "https://www.google.com/search?q=BonChon+reviews"
+  },
+  {
+    "name": "Andok's",
+    "image": "andoks.jpeg",
+    "rating": 4.4,
+    "reviews": 470,
+    "description": "Famous for roasted chicken, liempo, and local Filipino dishes. Affordable meals perfect for everyday dining.",
+    "delivery_fee": 40,
+    "min_order": 150,
+    "buy_link": "https://andoksdelivery.com.ph/",
+    "review_link": "https://www.google.com/search?q=Andok's+reviews"
+  },
+  {
+    "name": "Tokyo Tokyo",
+    "image": "tokyo.png",
+    "rating": 4.3,
+    "reviews": 430,
+    "description": "Japanese-inspired meals, including bento, sushi, and tempura. Offers tasty, quick Japanese dishes for delivery.",
+    "delivery_fee": 55,
+    "min_order": 200,
+    "buy_link": "https://www.foodpanda.ph/restaurant/w4mr/tokyo-tokyo-sm-southmall",
+    "review_link": "https://www.google.com/search?q=Tokyo+Tokyo+reviews"
+  },
+  {
+    "name": "Yellow Cab Pizza",
+    "image": "yellow.jpg",
+    "rating": 4.4,
+    "reviews": 500,
+    "description": "Thin-crust pizzas, pasta, and chicken wings. A modern pizzeria favorite for flavorful meals and sharing plates.",
+    "delivery_fee": 60,
+    "min_order": 250,
+    "buy_link": "https://www.foodpanda.ph/restaurant/q0lp/yellow-cab-las-pinas",
+    "review_link": "https://www.google.com/search?q=Yellow+Cab+reviews"
+  },
+  {
+    "name": "Army Navy",
+    "image": "army.jpg",
+    "rating": 4.5,
+    "reviews": 460,
+    "description": "Burgers, burritos, fries, and milkshakes. Known for hearty American comfort food in a casual setting.",
+    "delivery_fee": 55,
+    "min_order": 200,
+    "buy_link": "https://www.foodpanda.ph/restaurant/j502/army-navy-pamplona-iii",
+    "review_link": "https://www.google.com/search?q=Army+Navy+reviews"
+  },
+  {
+    "name": "Conti's",
+    "image": "contis.jpg",
+    "rating": 4.6,
+    "reviews": 420,
+    "description": "Cakes, pastries, pasta, and full meals. A great choice for celebrations and sweet treats.",
+    "delivery_fee": 65,
+    "min_order": 300,
+    "buy_link": "https://www.foodpanda.ph/restaurant/vr1u/contis-bakeshop-and-restaurant-sm-southmall",
+    "review_link": "https://www.google.com/search?q=Conti's+reviews"
+  },
+  {
+    "name": "Cafe Mary Grace",
+    "image": "mary.jpg",
+    "rating": 4.7,
+    "reviews": 380,
+    "description": "Homemade-style cakes, pasta, and Filipino comfort meals. Cozy ambiance and quality dishes make it a favorite café.",
+    "delivery_fee": 50,
+    "min_order": 200,
+    "buy_link": "https://www.foodpanda.ph/restaurant/aqjl/cafe-mary-grace-southmall",
+    "review_link": "https://www.google.com/search?q=Cafe+Mary+Grace+reviews"
+  },
+  {
+    "name": "Racks",
+    "image": "racks.png",
+    "rating": 4.5,
+    "reviews": 350,
+    "description": "Ribs, steaks, and pasta dishes. Perfect for meat lovers and group meals with hearty portions.",
+    "delivery_fee": 70,
+    "min_order": 300,
+    "buy_link": "https://www.foodpanda.ph/restaurant/q3cu/racks-sm-southmall",
+    "review_link": "https://www.google.com/search?q=Racks+reviews"
+  },
+  {
+    "name": "Romulo Café",
+    "image": "romulo.jpg",
+    "rating": 4.6,
+    "reviews": 310,
+    "description": "Traditional Filipino cuisine with modern touches. Serves dishes inspired by heritage recipes and flavors.",
+    "delivery_fee": 60,
+    "min_order": 250,
+    "buy_link": "https://romulocafe.com/menu/?product_cat=beef",
+    "review_link": "https://www.google.com/search?q=Romulo+Cafe+reviews"
+  },
+  {
+    "name": "Pancake House",
+    "image": "pancake.png",
+    "rating": 4.5,
+    "reviews": 400,
+    "description": "Pancakes, breakfast meals, and all-day comfort food. A classic spot for breakfast lovers and casual dining.",
+    "delivery_fee": 50,
+    "min_order": 200,
+    "buy_link": "https://www.foodpanda.ph/restaurant/t0rd/pancake-house-vista-mall-las-pinas",
+    "review_link": "https://www.google.com/search?q=Pancake+House+reviews"
+  },
+  {
+    "name": "Hap Chan",
+    "image": "hapchan.jpg",
+    "rating": 4.3,
+    "reviews": 290,
+    "description": "Chinese-Filipino dishes including noodles, dim sum, and rice meals. Known for flavorful dishes at reasonable prices.",
+    "delivery_fee": 45,
+    "min_order": 180,
+    "buy_link": "https://www.foodpanda.ph/restaurant/gexl/hap-chan-pamplona-las-pinas",
+    "review_link": "https://www.google.com/search?q=Hap+Chan+reviews"
+  },
+  {
+    "name": "Casa Reyes",
+    "image": "casa.jpg",
+    "rating": 4.5,
+    "reviews": 350,
+    "description": "Authentic Filipino dishes with a modern touch. Known for its flavorful rice meals, grilled meats, and home-style specialties.",
+    "delivery_fee": 45,
+    "min_order": 200,
+    "buy_link": "https://www.casareyesbistrofilipino.com/menu",
+    "review_link": "https://www.google.com/search?q=Casa+Reyes+reviews"
+  }
+]
